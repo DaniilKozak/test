@@ -8,8 +8,7 @@ public class Test {
         List<String> nums = Arrays.asList("one", "two", "three");
         printList(nums);
     }
-
-
+    
     public static void printList(List<?> list){
         System.out.println(list);
     }
